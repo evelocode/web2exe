@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./kumuthu.css">
+    <link rel="stylesheet" href="./animation.css">
+    <link rel="stylesheet" href="./tutorial.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" href="../evelocode/icon.png">
+    <title>web2exe</title>
+</head>
+<body class="light_theme">
+    <div class="hero_section">
+        <header class="header">
+          <div class="logoh">
+            <img src="" />
+            <h1 class="logoh">web2exe</h1>
+          </div>
+          <nav class="navigation_bar">
+            <p>Home</p>
+            <p onclick="window.scrollBy(0, 3800);">Downoad</p>
+            <p onclick="window.scrollBy(0, 700);">Help</p>
+          </nav>
+          <div class="general_info">
+            <p id="current_time"></p>
+            <!--<img
+              id="theme_toggler"
+              class="theme-toggler"
+              src="assets/light_to_dark.svg"
+            />-->
+              <div id="theme_toggler" class="theme-change">
+                <img src="./assets/dark_to_light.svg" class="theme-toggler darkmode">
+                <img src="./assets/light_to_dark.svg" class="theme-toggler lightmode">
+              </div>
+          </div>
+        </header>
+        <div class="hero_content">
+          <h1 class="hero_heading">Web<br/>2<br/>EXE</h1>
+          <p class="hero_para">
+            Get ready to compile,<br>Your website resource files to exe file<br><a style="font-size: 13px;">Powered By: EveloCode</a>
+          </p>
+          <button class="hero_button" onclick="window.open('https:/\/t.me/+gd68KKv_z9ZkZWY1')"><i class="fa fa-telegram" style="margin-right: 10px;"></i>Join Telegram Channel</button>
+        </div>
+        <img id='hero_image'class="hero_image" src="./assets/light_hero_image.svg" />
+        <img id='hero_image1'class="hero_image hero_image-left" src="./assets/dark_hero_image.svg" />
+      </div>
+    <div class="home">
+        <section>
+            <div class="whatis-box container reveal">
+                <h1>What is web2exe ?</h1>
+                <br><br>
+                <h3>Chromium is the platform that can be execute html files. The electronjs is chromium based. web2exe is the compiled electron app and you can add files to the path. Then its running your website resournce files as a desktop app.
+                    <br><br>
+                    You must add your files to bellow mentioned directory.<br><pre>index.html is required.</pre>
+                    <br><pre>./resources/app/htdocs/...</pre>
+                    <br><br>
+                    Then you can run <pre>application.exe</pre>
+                </h3>
+            </div>
+        </section>
+    </div>
+    <div class="home-tute">
+        <section class="section2">
+            <div class="whatis-box container reveal">
+                <br><br><br><br><br><br><br><br><br>
+                <h1>Download web2exe</h1>
+                <br><br>
+                <h3>Download <a href="https://www.mediafire.com/folder/dut170hkkogix/web2exe"><i class="fa fa-download"></i> web2exe.zip</a> with node modules.<br><br>
+                    Download <i class="fa fa-download"></i> web2exe.zip without node modules. (You should install and pack to exe) [Not avalable]<br>
+                    <br>
+                    <br>
+                    <pre>Copyright (c) Electron contributors<br>Copyright (c) 2013-2020 GitHub Inc.</pre>
+                </h3>
+                <br><br><br><br>
+            </div>
+        </section>
+    </div>
+    <div class="home-tute footer">
+        <h4>Copyright 2023 EveloCode</h4>
+        <br>
+        <div style="display: flex; flex-direction: row;">
+            <a href="#"><img onclick="window.scrollBy(0, 0);" src="../icon2.png" alt=""></a>
+            <img onclick="window.open('https:\/\/github.com/prabhasha2006')" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" class="invert">
+            <img onclick="window.open('https:/\/t.me/+gd68KKv_z9ZkZWY1')" src="https://cdn-icons-png.flaticon.com/512/2111/2111710.png" class="invert">
+            <img onclick="window.open('https:\/\/www.facebook.com/profile.php?id=100080792106732&mibextid=ZbWKwL')" src="https://cdn-icons-png.flaticon.com/512/2175/2175193.png" class="invert">
+        </div>
+    </div>
+    <script src="./animation.js"></script>
+    <script src="./scripts/toggleTheme.js"></script>
+</body>
+</html>
